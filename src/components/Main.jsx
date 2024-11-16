@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ Suspense } from 'react';
 import imacImg from '/Images/iMac.png';
 import universityImg from '/Images/University.png';
 import officeImg from '/Images/Office.png';
@@ -12,12 +12,18 @@ import bharatImg from '/Images/bharat.png'
 import nsdcImg from '/Images/NSDC.png'
 import startUpImg from '/Images/StartUp.png'
 
+
+      //  const imacImg = React.lazy(()=> import('/Images/iMac.png'));
+
 const Main = () => {
+
+
   return (
     <>
     <div className='mt-10 px-14 flex gap-10 '>
-        <img src={imacImg} className='w-[44%]'/>
-
+      {/* <Suspense fallback={<div>Loading image...</div>}> */}
+        <img src={imacImg} className='w-[44%]' alt='iMac' />
+        {/* </Suspense> */}
         <div>
             <p className='text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-[#4C5856] font-bold'>Where The World</p>
             <p className='mt-2 text-2xl sm:text-4xl  md:text-5xl lg:text-7xl text-[#4C5856] font-bold'>Learns To Code</p>

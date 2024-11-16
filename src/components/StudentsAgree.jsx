@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ Suspense } from 'react';
 import waveImg from '/Images/New/Vector_21.png';
 import vectorImg from '/Images/New/Vector_22.png';
 import boyImg from '/Images/New/image_122.png';
@@ -10,12 +10,17 @@ import cssImg from '/Images/New/css.png';
 import reactImg from '/Images/New/React.png';
 import nodeImg from '/Images/New/NodeJS.png';
 import flutterImg from '/Images/New/Flutter.png';
-import AgreeCard from './AgreeCard';
+//import AgreeCard from './AgreeCard';
+
+  const AgreeCard = React.lazy(()=> import('./AgreeCard'));
+  
+  
+
 
 const StudentsAgree = () => {
+
   return (
     <>
-
     <div className='relative mt-10 w-full'>
        <img src={headboyImg} className='absolute right-[30%] top-[9%]  h-auto w-[20%]' />
        <img src={headgirlImg} className='absolute right-[12%] top-[6%]  h-auto w-[16%]' />
@@ -34,9 +39,11 @@ const StudentsAgree = () => {
 
         <div className='relative mt-20 flex justify-between'>
         {/* <img src={cssImg} className='absolute w-[6%] left-10 h-auto' /> */}
+           <Suspense fallback={<div>Loading image...</div>}>
             <AgreeCard />
             <AgreeCard />
             <AgreeCard />
+           </Suspense>
             <img src={cssImg} className='absolute w-[6%] left-[32%] -top-[20%] h-auto' />
             <img src={reactImg} className='absolute w-[6%] -bottom-[12%] right-[27%] h-auto' />
         </div>
