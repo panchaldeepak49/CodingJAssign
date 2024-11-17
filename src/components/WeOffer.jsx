@@ -24,11 +24,11 @@ const WeOffer = () => {
     <>
     <div className='mt-10 flex justify-center '>
        <div className='flex flex-col justify-center items-center'>
-        <p className='text-2xl sm:text-4xl font-Poppins font-medium text-[#4C5856]'>Because We Offer What You Need  </p>
-       <p className='mt-2 text-2xl sm:text-4xl font-Poppins font-medium text-[#4C5856]'>At <span className='text-[#2B95ED]'>Every Step</span> Of Your  </p>
+        <p className='max-450:text-xl text-2xl sm:text-4xl font-Poppins font-medium text-[#4C5856]'>Because We Offer What You Need  </p>
+       <p className='mt-2 max-450:text-xl text-2xl sm:text-4xl font-Poppins font-medium text-[#4C5856]'>At <span className='text-[#2B95ED]'>Every Step</span> Of Your  </p>
        
-       <p className='mt-2 text-2xl sm:text-4xl font-Poppins font-medium text-[#2B95ED]'>Transformative Learning Journey  </p>
-       <img src={starImg}  className='relative w-[15%] right-52 sm:right-80 bottom-12'/>
+       <p className='mt-2 max-450:text-xl  text-2xl sm:text-4xl font-Poppins font-medium text-[#2B95ED]'>Transformative Learning Journey  </p>
+       <img src={starImg}  className='relative max-450:w-[10%] w-[15%] max-450:right-40 right-52 sm:right-80 bottom-12'/>
        </div>
     </div>
      
@@ -50,16 +50,12 @@ const WeOffer = () => {
 
 
 
-
-
-
-
-
-   <div className=' mt-10 px-32 flex gap-10 '>
+   <div className=' mt-10 px-4 sm:px-32 flex gap-10  '>   {/* bg-green-400 */}
+   {/* <div className=' mt-10 px-4 sm:px-32 grid max-450:grid-cols-1 grid-cols-2 '> */}
     
        {/* 1st card */}
        
-     <div className='relative md:w-[50%] h-52 md:h-52 shadow-2xl border-2 border-[#2B95ED] rounded-2xl'>
+     <div className='relative w-[100%] md:w-[50%] h-52 md:h-52 shadow-2xl border-2 border-[#2B95ED]  rounded-2xl'>   {/* bg-red-400 */}
      {/* <img src={circleImg} className='absolute w-[14%]  left-36 -top-8 ' />  */}
         <div className='mt-5 md:pl-5 flex gap-2 md:gap-5 justify-start items-center'>
         <img src={degreeImg} className='w-[20%] md:w-[18%]' /> 
@@ -69,12 +65,12 @@ const WeOffer = () => {
             specialization that best suites your goals.
         </p>
      </div>
-     <img src={cardCutLImg} className='relative w-[8%] h-56 bottom-2 right-16 sm:right-20 md:right-24 lg:right-32 ' /> 
+     <img src={cardCutLImg} className='max-450:hidden relative w-[8%] h-56 bottom-2 right-16 sm:right-20 md:right-24 lg:right-32 ' /> 
       
       {/* 2nd card */}
-      <img src={cardCutRImg} className='relative w-[8%] h-56 top-8 left-16 sm:left-20 md:left-24 lg:left-32 ' /> 
+      <img src={cardCutRImg} className='max-450:hidden relative w-[8%] h-56 top-8 left-16 sm:left-20 md:left-24 lg:left-32 ' /> 
 
-      <div className='mt-10 md:w-[50%] h-52 shadow-2xl border-2 border-[#2B95ED] rounded-2xl'>
+      <div className='mt-10 w-[100%] md:w-[50%] h-52 shadow-2xl border-2 border-[#2B95ED] rounded-2xl'>
         <div className='mt-7 pl-5 md:pl-10 flex gap-2 md:gap-5 justify-start items-center'>
         <img src={onlineImg} className='w-[12%]' /> 
         <p className='text-[12px] sm:text-sm md:text-2xl font-normal text-[#393939]'>Virtual Labs </p>
@@ -88,7 +84,7 @@ const WeOffer = () => {
    </div>
 
 
-   <div className=' mt-10 px-32 flex gap-10 '>
+   <div className=' mt-10 px-4 sm:px-32 flex gap-10 '>
      <CardLeft 
       mainImg={ai1Img}
       heading= "AI Tests"
@@ -102,7 +98,7 @@ const WeOffer = () => {
      />
      </div>
 
-     <div className=' mt-10 px-32 flex gap-10 '>
+     <div className=' mt-10 px-4 sm:px-32 flex gap-10 '>
      <CardLeft 
       mainImg={placementImg}
       heading= "Placement Preparation"

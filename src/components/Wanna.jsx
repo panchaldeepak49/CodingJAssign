@@ -19,19 +19,19 @@ const Wanna = () => {
   return (
     <>
     <div className='flex justify-center items-center'>
-    <div className='mt-20 w-[60%] flex justify-between'>
+    <div className='mt-20 max-450:w-[80%] w-[60%] flex  justify-between'>
 
-        <div className='w-[30%] '>     {/* bg-blue-400 */}
+        <div className='max-450:w-[40%] w-[30%] '>     {/* bg-blue-400 */}
             <img src={mobileImage} className=' w-[90%]' />
         </div>
         
-        <div className='w-[50%] sm:mt-3 md:mt-5 '>  {/* bg-green-400 */}
+        <div className='max-450:w-[60%] w-[50%] sm:mt-3 md:mt-5 '>  {/* bg-green-400 */}
             {/* <img src={mobileImage} className=' w-[10%]' /> */}
-            <p className='text-[#4C5856] text-xl sm:text-2xl md:text-3xl text-medium'>Wanna See More?</p>
-            <p className='sm:mt-2 text-[#4C5856] text-xl sm:text-2xl md:text-3xl text-medium'>Join Us !</p>
+            <p className='text-[#4C5856] max-450:text-lg text-xl sm:text-2xl md:text-3xl text-medium'>Wanna See More?</p>
+            <p className='sm:mt-2 text-[#4C5856] max-450:text-lg text-xl sm:text-2xl md:text-3xl text-medium'>Join Us !</p>
             
             <div>
-            <div className='md:mt-8 lg:mt-10 grid grid-cols-2 md:gap-4'>
+            <div className=' md:mt-8 lg:mt-10 grid grid-cols-2 gap-1 md:gap-4'>
                 <WannaCard mainImg={recordedLectImage} text='Recorded Lectures' />
                 <WannaCard mainImg={keyboardImage} text='Language Specific Keyboard' />
 
@@ -45,7 +45,7 @@ const Wanna = () => {
                 <WannaCard mainImg={magazineImage} text='Coding Magazine' />
             </div>
 
-               <div className='mt-8 lg:mt-20 flex gap-4'>
+               <div className=' mt-8 lg:mt-20 flex max-450:flex-col gap-4'>
                 {/* <button className='bg-[#2B95ED] px-2 py-1 flex items-center gap-4 w-[40%] rounded-md'>
                     <img src={playImage} className='w-[18%]'/>
                     <div className='flex flex-col items-start'>
@@ -60,7 +60,7 @@ const Wanna = () => {
             </div>
         </div>
 
-        <div className='flex flex-col items-end w-[15%] '>
+        <div className='max-450:hidden flex flex-col items-end w-[15%] '>
             <img src={ornamentImage} className=' w-[100%]' />
             <img src={ornamentImage} className=' w-[100%]' />
         </div>

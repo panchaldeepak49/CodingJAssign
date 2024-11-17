@@ -7,11 +7,13 @@ import facebookImage from '/Images/New/facebook.png';
 import linkedInImage from '/Images/New/Linkedin.png';
 
 const KeepInTouch = () => {
+
   return (
     <>
       <div className='my-10 sm:mt-20 flex justify-center '>
-      <div className='relative w-[60%] flex '>{/* bg-blue-300 */}
-        <div className='w-[40%] bg-gradient-to-b from-[#1C408E] to-[#081228]'>
+      <div className='relative max-450:w-[80%] w-[60%] flex max-450:flex-col '>{/* bg-blue-300 */}
+
+        <div className=' max-450:w-[100%] w-[40%] bg-gradient-to-b from-[#1C408E] to-[#081228]'>
             <div className='flex flex-col justify-center items-center py-20 pl-10 sm:pl-4 lg:px-0'>
                 <div>
                 <p className='text-base sm:text-xl md:text-2xl lg:text-3xl text-[#FFFFFF]'>Let's keep in touch!</p>
@@ -39,7 +41,7 @@ const KeepInTouch = () => {
             </div>
         </div>
        
-        <div className='w-[60%] bg-gradient-to-b from-[#0F234D]  to-[#2B95ED] via-[#1C40BE]'>
+        <div className='max-450:w-[100%] w-[60%] bg-gradient-to-b from-[#0F234D]  to-[#2B95ED] via-[#1C40BE]'>
             <div className='grid grid-cols-3 py-20'>
                 <div className='flex flex-col gap-2 px-4 '>{/* bg-red-300 */}
                <p className='text-[#FFFFFF] text-sm sm:text-base'>Courses </p>

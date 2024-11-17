@@ -38,6 +38,7 @@ const StudentsAgree = () => {
         </div> 
 
         <div className='relative mt-20 flex justify-between'>
+        {/* <div className='relative mt-20 grid grid-cols-3'> */}
         {/* <img src={cssImg} className='absolute w-[6%] left-10 h-auto' /> */}
            <Suspense fallback={<div>Loading image...</div>}>
             <AgreeCard />

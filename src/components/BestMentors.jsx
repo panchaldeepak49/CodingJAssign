@@ -16,25 +16,25 @@ const BestMentors = () => {
   return (
     <>
     <div className='relative mt-20 flex flex-col justify-center items-center '>
-        <p className='text-[#4C5856] text-xl'>We Know Just Education Is Not Enough Anymore </p>
-        <p className='mt-2 text-[#4C5856] font-Poppins text-3xl'>So We've Got The <span className='text-[#2B95ED]'>Best Mentors</span>  For You</p>
+        <p className='max-450:px-2 text-[#4C5856] text-xl'>We Know Just Education Is Not Enough Anymore </p>
+        <p className='mt-2 max-450:px-2 max-450:text-2xl text-[#4C5856] font-Poppins text-3xl'>So We've Got The <span className='text-[#2B95ED]'>Best Mentors</span>  For You</p>
         <img src={ornamentImg1} className='absolute w-[7%] left-[26%] top-[60%]' />
         <img src={ornamentImg2} className='absolute w-[5%] left-[21%] top-[44%]' />
     </div>
 
-    <div className='mt-24 gap-4 flex justify-center'>
+    <div className=' max-450:mt-10 mt-24 gap-4 flex justify-center'>
        <img src={ptcImg1} className=' w-[20%]' />
        <img src={ptcImg2} className=' w-[20%]' />
        <img src={ptcImg3} className=' w-[20%]' />
     </div>
 
-    <div className='mt-20 flex justify-center'>
+    <div className='max-450:mt-10 mt-20 flex justify-center'>
         <p className='text-xl sm:text-2xl md:text-3xl font-medium text-[#4C5856] '>We've Also Been In<span className='text-[#2B95ED]'> News!</span> </p>
     </div>
 
-    <div className='relative mt-10 flex justify-center gap-4'>
-         <img src={ornamentRoundImg} className='absolute w-[14%] -top-[8%] sm:-top-[15%] left-[17%]' />
-         <img src={ornamentRoundImg} className='absolute w-[12%] -top-[8%] sm:-top-[15%] right-[15%]' />
+    <div className='relative mt-10 flex justify-center max-450:gap-2 gap-4'>
+         <img src={ornamentRoundImg} className='absolute w-[14%] max-450:top-[15%]  -top-[8%] sm:-top-[15%] left-[17%]' />
+         <img src={ornamentRoundImg} className='absolute w-[12%] max-450:top-[12%] -top-[8%] sm:-top-[15%] right-[15%]' />
          <img src={ornamentRoundImg} className='absolute w-[12%] -bottom-[10%]  sm:-bottom-[18%] right-[33%]' />
         {/* <div className='w-[20%] h-auto bg-green-400 rounded-lg shadow-2xl'>
             <div className='flex flex-col justify-center items-center px-2 sm:px-4 md:px-8'>

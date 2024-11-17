@@ -6,9 +6,11 @@ import dottedImg from '/Images/Ornament_86.png';
 import { IoIosArrowForward } from "react-icons/io";
 
 const Holistic = () => {
+  
   return (
     <>
-    <div className='mt-14 flex flex-col justify-center items-center'>
+   
+    <div className='mt-14 px-4 sm:px-0 flex flex-col justify-center items-center '>     {/* bg-red-400 */}
         <img src={roundImg}  className='absolute w-[7%] left-96'/>
         <p className='text-3xl font-Poppins font-medium text-[#4C5856]'>Check Out Our <span className='text-[#2B95ED]'>Holistic Programs</span>  Designed  </p>
        <p className='mt-2 text-3xl font-Poppins font-medium text-[#4C5856]'>To Help You Reach Your <span className='text-[#2B95ED]'>Goals</span> </p>
@@ -16,8 +18,8 @@ const Holistic = () => {
 
      {/* part changed  */}
      <img src={dottedImg}  className='absolute w-[7%] right-80 -z-1'/>
-    <div className='mt-10 flex justify-center'>
-        <div className='w-[50%] p-2 shadow-2xl grid  sm:grid-cols-2 '>
+    <div className='mt-10 flex justify-center '>
+        <div className='w-[70%] sm:w-[50%] p-2 shadow-2xl grid  sm:grid-cols-2 '>    {/* bg-green-400  */}
       <img src={boyImg}  className=' w-[95%] left-96'/>
       <div className=' p-2'>
         <p className='text-[#080808] text-lg font-medium font-Roboto'>Campus Training</p>
@@ -35,7 +37,7 @@ const Holistic = () => {
    {/* part changed  */}
 
     <div className='mt-10 flex justify-center'>
-        <div className='w-[50%] p-2 shadow-2xl grid  sm:grid-cols-2'>
+        <div className='w-[70%] sm:w-[50%] p-2 shadow-2xl grid  sm:grid-cols-2'>
       <img src={girlImg}  className=' w-[95%] left-96'/>
       <div className=' p-2'>
         <p className='text-[#080808] text-lg font-medium font-Roboto'>Professional Training</p>

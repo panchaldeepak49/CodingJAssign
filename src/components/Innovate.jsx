@@ -18,14 +18,14 @@ const Innovate = () => {
 
 
     <div className='mt-10 flex justify-center'>
-        <img src={timesImg}  className=' w-[30%] '/>
+        <img src={timesImg}  className=' w-[60%] sm:w-[30%] '/>
        
     </div>
 
     
     <div className='mt-10 flex justify-center'>
         
-        <img src={nsdcPartnerImg}  className=' w-[30%] '/>
+        <img src={nsdcPartnerImg}  className='w-[60%]  sm:w-[30%] '/>
     </div>
 
     </>

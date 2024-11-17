@@ -10,14 +10,14 @@ import kindleImg from '/Images/Kindle.png';
 const Apart = () => {
   return (
     <>
-    <div className='mt-2 h-[220vh] sm:h-[120vh] lg:h-[95vh] bg-[#2B95ED]'>
+    <div className='mt-2 h-auto sm:h-[120vh] lg:h-[95vh] bg-[#2B95ED]'>
 
-        <div className='px-44 pt-10 flex justify-between'>
+        <div className='px-10 sm:px-44 pt-10 flex justify-between'>
         <p className='text-xl sm:text-2xl md:text-3xl text-white font-Poppins'>What Sets Us Apart?</p>
         <img src={ornamentImg} className='w-[5%] md:w-[3%]'/>
         </div>
 
-        <div className='mt-10 px-44 grid sm:grid-cols-2 md:grid-cols-3 gap-10'>
+        <div className='py-10 px-10 sm:px-44 grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-10'>
 
             <div className='h-32 sm:h-32 md:h-52 bg-white w-[100%] rounded-lg'> 
                 

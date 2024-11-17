@@ -6,7 +6,7 @@ const MentorCard = ({subImg,mainImg,text}) => {
     <>
     <div className='w-[20%] h-auto  rounded-lg shadow-2xl z-50'>
             <div className='flex flex-col justify-center items-center px-2 sm:px-4 md:px-8'>
-                <div className='flex justify-between items-center py-5'>
+                <div className='flex max-450:flex-col justify-between items-center py-5'>
                  <img src={subImg} className=' w-[50%]' />
                  <p className='flex text-[8px]'>31 March,2024</p>
                 </div>

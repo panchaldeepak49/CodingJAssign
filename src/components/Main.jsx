@@ -21,13 +21,15 @@ const Main = () => {
    //w-[44%]
   return (
     <>
-    <div className='mt-10 px-14 grid grid-cols-2 max-450:grid-cols-1   gap-10 '>
+    <div className='mt-10 px-4 sm:px-14 grid grid-cols-2 max-450:grid-cols-1   gap-10 '>
       {/* <Suspense fallback={<div>Loading image...</div>}> */}
-        <img src={imacImg} className=' bg-green-400' alt='iMac' />
+        <img src={imacImg} className=' ' alt='iMac' />
         {/* </Suspense> */}
-        <div className='bg-blue-400'>
+        <div className=''>     {/* bg-blue-400 */}
+            <div className='flex flex-col max-450:items-center items-start'>
             <p className='text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-[#4C5856] font-bold'>Where The World</p>
             <p className='mt-2 text-2xl sm:text-4xl  md:text-5xl lg:text-7xl text-[#4C5856] font-bold'>Learns To Code</p>
+            </div>
 
             <div className='mt-5 md:mt-12 flex gap-6 '>
                 <div className='w-[45%] h-auto sm:h-32 md:h-36 lg:h-52 border-2 border-[#2B95ED] rounded-md flex flex-col justify-center items-center'> 
@@ -54,8 +56,10 @@ const Main = () => {
             </div>
         </div>
     </div>
-
-    <div className='mt-10 px-14 grid grid-cols-4 grid-gap-2 '>
+     
+      {/* Part-3 */}
+    <div className='mt-10 px-4 sm:px-14 grid max-450:grid-cols-2 grid-cols-4  gap-4 '>
+      
         <div className='w-[80%] md:h-24 border-2 border-[#2B95ED]  rounded-lg flex justify-evenly items-center'>
            <img src={locationImg}  className='w-[35%] sm:w-[30%] h-auto'/>
            <div>
@@ -94,7 +98,8 @@ const Main = () => {
        </div>
 
 
-       <div className='px-14 mt-5 grid grid-cols-3 bg-[#C5E5FF33]'>
+         {/* Part-4 */}
+       <div className='px-4 sm:px-14 mt-5 grid grid-cols-3 bg-[#C5E5FF33]'>
         <div className='flex justify-center items-center'>
        <img src={bharatImg}  className='w-[60%] sm:w-[60%] h-auto'/>
        </div>
