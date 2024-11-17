@@ -13,6 +13,12 @@ export default {
         Roboto : ["Roboto",""]
       }
     },
+    extend : {
+    screens : {
+        'min-360': { 'min': '359px' },
+        'max-450' : { 'max': '449px' },
+    },
+  },
   },
   plugins: [],
 }

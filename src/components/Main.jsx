@@ -17,14 +17,15 @@ import startUpImg from '/Images/StartUp.png'
 
 const Main = () => {
 
-
+   // max-450:grid-cols-1
+   //w-[44%]
   return (
     <>
-    <div className='mt-10 px-14 flex gap-10 '>
+    <div className='mt-10 px-14 grid grid-cols-2 max-450:grid-cols-1   gap-10 '>
       {/* <Suspense fallback={<div>Loading image...</div>}> */}
-        <img src={imacImg} className='w-[44%]' alt='iMac' />
+        <img src={imacImg} className=' bg-green-400' alt='iMac' />
         {/* </Suspense> */}
-        <div>
+        <div className='bg-blue-400'>
             <p className='text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-[#4C5856] font-bold'>Where The World</p>
             <p className='mt-2 text-2xl sm:text-4xl  md:text-5xl lg:text-7xl text-[#4C5856] font-bold'>Learns To Code</p>
 
