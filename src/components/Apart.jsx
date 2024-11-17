@@ -14,12 +14,12 @@ const Apart = () => {
 
         <div className='px-10 sm:px-44 pt-10 flex justify-between'>
         <p className='text-xl sm:text-2xl md:text-3xl text-white font-Poppins'>What Sets Us Apart?</p>
-        <img src={ornamentImg} className='w-[5%] md:w-[3%]'/>
+        <img src={ornamentImg} className='max-450:w-[7%] w-[5%] md:w-[3%]'/>
         </div>
 
         <div className='py-10 px-10 sm:px-44 grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-10'>
 
-            <div className='h-32 sm:h-32 md:h-52 bg-white w-[100%] rounded-lg'> 
+            <div className='max-450:py-1 sm:h-32 md:h-52 bg-white w-[100%] rounded-lg'> 
                 
                <img src={graduationImg} className='w-[20%] sm:w-[30%] md:w-[40%]'/>
                <div className='px-4'>
@@ -29,7 +29,7 @@ const Apart = () => {
                </div>
             </div>
 
-            <div className='h-32 sm:h-32 md:h-52 bg-white w-[100%] rounded-lg'> 
+            <div className='max-450:py-1 sm:h-32 md:h-52 bg-white w-[100%] rounded-lg'> 
                
                <img src={aiImg} className='w-[20%] sm:w-[30%] md:w-[40%]'/>
                <div className='px-4'>
@@ -39,7 +39,7 @@ const Apart = () => {
                </div>
             </div>
 
-            <div className='h-32 sm:h-32 md:h-52 bg-white w-[100%] rounded-lg'> 
+            <div className='max-450:py-1 sm:h-32 md:h-52 bg-white w-[100%] rounded-lg'> 
                 <img src={appCodingImg} className='w-[20%] sm:w-[30%] md:w-[40%]'/>
                 <div className='px-4'>
                <p className='text-[#2B95ED] text-[13px] md:text-sm lg:text-xl'>In-app Coding</p>
@@ -48,7 +48,7 @@ const Apart = () => {
                </div>
             </div>
 
-            <div className='h-32 sm:h-32 md:h-52 bg-white w-[100%] rounded-lg'> 
+            <div className='max-450:py-1 sm:h-32 md:h-52 bg-white w-[100%] rounded-lg'> 
                 <img src={openBookImg} className='w-[20%] sm:w-[30%] md:w-[40%]'/>
                 <div className='px-4'>
                <p className='text-[#2B95ED] text-[13px] md:text-sm lg:text-xl'>Extensive E-books</p>
@@ -57,7 +57,7 @@ const Apart = () => {
                </div>
             </div>
             
-            <div className='h-32 sm:h-32 md:h-52 bg-white w-[100%] rounded-lg'> 
+            <div className='max-450:py-1 sm:h-32 md:h-52 bg-white w-[100%] rounded-lg'> 
                 <img src={recordedLectImg} className='w-[20%] sm:w-[30%] md:w-[40%]'/>
                 <div className='px-4'>
                <p className='text-[#2B95ED] text-[13px] md:text-sm lg:text-xl'>Recorded Lectures </p>
@@ -66,7 +66,7 @@ const Apart = () => {
                </div>
             </div>
 
-            <div className='h-32 sm:h-32 md:h-52 bg-white w-[100%] rounded-lg'> 
+            <div className='max-450:py-1 sm:h-32 md:h-52 bg-white w-[100%] rounded-lg'> 
                 <img src={kindleImg} className='w-[20%] sm:w-[30%] md:w-[40%]'/>
                 <div className='px-4'>
                <p className='text-[#2B95ED] text-[13px] md:text-sm lg:text-xl'>Flash cards </p>

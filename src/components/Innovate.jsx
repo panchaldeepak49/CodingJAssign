@@ -2,6 +2,7 @@ import React from 'react';
 import starImg from '/Images/Ornament_117.png';
 import timesImg from '/Images/TimesUnder.png';
 import nsdcPartnerImg from '/Images/nsdc_partner.png';
+import rectangleImg from '/Images/New/Rectangle_9448.png';
 
 const Innovate = () => {
 
@@ -17,9 +18,9 @@ const Innovate = () => {
     </div>
 
 
-    <div className='mt-10 flex justify-center'>
-        <img src={timesImg}  className=' w-[60%] sm:w-[30%] '/>
-       
+    <div className='mt-10 relative flex justify-center'>
+        <img src={timesImg}  className='max-450:w-[58%] w-[60%]  sm:w-[30%] rounded-tr-2xl rounded-bl-2xl '/>
+        {/* <img src={rectangleImg}  className=' w-[60%] sm:w-[30%] '/> */}
     </div>
 
     

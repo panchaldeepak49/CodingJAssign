@@ -43,9 +43,9 @@ const WeOffer = () => {
     </div> */}
 
     <div className='relative mt-10 flex items-center justify-center'>
-  <img src={removeBgImg} className='w-[30%] absolute bottom-10 sm:bottom-12' />
-  <img src={fullEllipseImg} className='w-[30%]' />
-  <img src={partEllipseImg} className='w-[30%] absolute top-12 sm:top-16 md:top-20 lg:top-28' />
+  <img src={removeBgImg} className='max-450:w-[50%] w-[30%] absolute bottom-10 sm:bottom-12' />
+  <img src={fullEllipseImg} className='max-450:w-[50%] w-[30%]' />
+  <img src={partEllipseImg} className='max-450:w-[50%] w-[30%] absolute max-450:top-11 top-12 sm:top-16 md:top-20 lg:top-28' />
    </div>
 
 

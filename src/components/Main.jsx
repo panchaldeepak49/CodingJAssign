@@ -32,7 +32,7 @@ const Main = () => {
             </div>
 
             <div className='mt-5 md:mt-12 flex gap-6 '>
-                <div className='w-[45%] h-auto sm:h-32 md:h-36 lg:h-52 border-2 border-[#2B95ED] rounded-md flex flex-col justify-center items-center'> 
+                <div className='w-[45%] max-450:py-1 h-auto sm:h-32 md:h-36 lg:h-52 border-2 border-[#2B95ED] rounded-md flex flex-col justify-center items-center'> 
                    
                         <img src={universityImg}  className='w-[20%] lg:w-[20%] h-auto'/>
                         <p className='text-[#1C408E] text-[10px] md:text-base lg:text-xl font-medium'>Campus Training</p>
@@ -42,7 +42,7 @@ const Main = () => {
                         <button className='mt-0 sm:mt-2 lg:mt-3 px-1 sm:px-2 md:px-4 lg:px-8 md:py-1 lg:py-2 text-[5px] sm:text-[8px] lg:text-base bg-[#2B95ED] text-white rounded-md flex md:gap-2 items-center'>Explore <IoIosArrowForward /> </button> 
                 </div>
 
-                <div className='w-[45%] h-auto sm:h-32 md:h-36 lg:h-52 border-2 border-[#2B95ED] rounded-md flex flex-col justify-center items-center'> 
+                <div className='w-[45%] max-450:py-1 h-auto sm:h-32 md:h-36 lg:h-52 border-2 border-[#2B95ED] rounded-md flex flex-col justify-center items-center'> 
                    
                         <img src={officeImg}  className='w-[20%] lg:w-[20%] h-auto'/>
                         <p className='text-[#1C408E] text-[10px] md:text-base lg:text-xl font-medium'>Professional Training</p>
@@ -58,9 +58,9 @@ const Main = () => {
     </div>
      
       {/* Part-3 */}
-    <div className='mt-10 px-4 sm:px-14 grid max-450:grid-cols-2 grid-cols-4  gap-4 '>
-      
-        <div className='w-[80%] md:h-24 border-2 border-[#2B95ED]  rounded-lg flex justify-evenly items-center'>
+    <div className='mt-10 px-4 sm:px-14 grid max-450:grid-cols-2 grid-cols-4  gap-4  '>
+
+        <div className='w-[80%] md:h-24 border-2 border-[#2B95ED]  rounded-lg flex justify-evenly items-center '>
            <img src={locationImg}  className='w-[35%] sm:w-[30%] h-auto'/>
            <div>
             <p className='text-[#2B95ED] text-sm sm:text-lg md:text-xl'>50+</p>
@@ -76,7 +76,7 @@ const Main = () => {
            </div>
         </div>
 
-        <div className='w-[80%] md:h-24 border-2 border-[#2B95ED]  rounded-lg flex justify-evenly items-center'>
+        <div className='w-[80%] max-450:py-4 md:h-24 border-2 border-[#2B95ED]  rounded-lg flex justify-evenly items-center'>
            <img src={capImg}  className='w-[35%] sm:w-[30%] h-auto'/>
            <div>
             <p className='text-[#2B95ED] text-sm sm:text-lg md:text-xl'>10K+</p>
@@ -84,7 +84,7 @@ const Main = () => {
            </div>
         </div>
          
-        <div className='w-[80%] md:h-24 border-2 border-[#2B95ED]  rounded-lg flex justify-evenly items-center'>
+        <div className='w-[80%] max-450:py-3 md:h-24 border-2 border-[#2B95ED]  rounded-lg flex justify-evenly items-center'>
            <img src={university1Img}  className='w-[35%] sm:w-[30%] h-auto'/>
            <div>
             <p className='text-[#2B95ED] text-sm sm:text-lg md:text-xl'>100+</p>
@@ -94,22 +94,22 @@ const Main = () => {
     </div>
        
        <div className='mt-5 md:mt-10 px-14 flex justify-end'>
-       <img src={ornamentImg}  className='w-[18%] sm:w-[20%] h-auto'/>
+       <img src={ornamentImg}  className='max-450:w-[50%] w-[18%] sm:w-[20%] h-auto'/>
        </div>
 
 
          {/* Part-4 */}
-       <div className='px-4 sm:px-14 mt-5 grid grid-cols-3 bg-[#C5E5FF33]'>
+       <div className='px-4 sm:px-14 py-5 grid grid-cols-3 bg-[#C5E5FF33]'>
         <div className='flex justify-center items-center'>
-       <img src={bharatImg}  className='w-[60%] sm:w-[60%] h-auto'/>
+       <img src={bharatImg}  className='w-[70%] sm:w-[60%] h-auto'/>
        </div>
 
        <div className='md:h-28 border-l-2 border-r-2  border-l-gray-500 border-r-gray-500 flex justify-center items-center '>
-       <img src={nsdcImg}  className='w-[60%] sm:w-[60%] h-auto'/>
+       <img src={nsdcImg}  className='w-[70%] sm:w-[60%] h-auto'/>
        </div>
 
        <div className='flex justify-center items-center'>
-       <img src={startUpImg}  className='w-[60%] sm:w-[60%] h-auto'/>
+       <img src={startUpImg}  className='w-[70%] sm:w-[60%] h-auto'/>
        </div>
        </div>
       
