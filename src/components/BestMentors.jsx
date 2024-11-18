@@ -4,6 +4,7 @@ import ornamentImg2 from '/Images/New/Ornament_94.png';
 import ptcImg1 from '/Images/New/PTC-1.png';
 import ptcImg2 from '/Images/New/PTC-2.png';
 import ptcImg3 from '/Images/New/PTC-3.png';
+import ptcFrame from '/Images/New/Frame_7.png';
 import printImg from '/Images/New/image_113.png';
 import outReachImg from '/Images/New/image_115.png';
 import codingJuniorImg from '/Images/New/Coding_Jr.png';
@@ -22,7 +23,8 @@ const BestMentors = () => {
         <img src={ornamentImg2} className='absolute w-[5%] left-[21%] top-[44%]' />
     </div>
 
-    <div className=' max-450:mt-10 mt-24 gap-4 flex justify-center'>
+    <div className='relative max-450:mt-10 mt-24 gap-4 flex justify-center'>
+       <img src={ptcFrame} className='absolute  w-[20%] bottom-0 left-[18.85%] max-450:left-[15.5%] sm:left-[17.5%] md:left-[18%] lg:left-[18.4%] xl:left-[18.75%]' />
        <img src={ptcImg1} className=' w-[20%]' />
        <img src={ptcImg2} className=' w-[20%]' />
        <img src={ptcImg3} className=' w-[20%]' />
