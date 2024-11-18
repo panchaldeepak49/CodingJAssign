@@ -7,8 +7,8 @@ const AgreeCard = () => {
     <>
     
             <div className='relative w-[30%] h-auto bg-[#FFFFFF] rounded-xl max-450:px-1 px-4 md:px-10 pt-7 pb-5 z-50'>
-            <img src={programmerImg} className='absolute w-[12%] left-[45%] -top-[6%] md:-top-[10%] h-auto' />
-            <img src={quoteImg} className='absolute w-[6%] left-[10%] h-auto' />
+            <img src={programmerImg} className='absolute max-450:w-[22%] w-[12%] max-450:left-[40%] left-[45%] max-450:-top-[3%] -top-[6%] md:-top-[10%] h-auto' />
+            <img src={quoteImg} className='absolute  w-[6%] left-[10%] h-auto' />
                    <p className='mt-4 text-[10px] md:text-xs text-[#393939] italic flex justify-center'> Lorem ipsum dolor sit amet, consectetur </p>
                    <p className='text-[10px] md:text-xs text-[#393939] italic flex justify-center'>adipiscing elit.Nunc vulputate libero et velit </p> 
                    <p className='text-[10px] md:text-xs text-[#393939] italic flex justify-center'>interdum, ac aliquet odio mattis. Class aptent taciti </p>

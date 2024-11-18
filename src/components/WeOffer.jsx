@@ -71,11 +71,11 @@ const WeOffer = () => {
       <img src={cardCutRImg} className='max-450:hidden relative w-[8%] h-56 top-8 left-16 sm:left-20 md:left-24 lg:left-32 ' /> 
 
       <div className='mt-10 w-[100%] md:w-[50%] h-52 shadow-2xl border-2 border-[#2B95ED] rounded-2xl'>
-        <div className='mt-7 pl-5 md:pl-10 flex gap-2 md:gap-5 justify-start items-center'>
+        <div className='mt-7 pl-2 md:pl-10 flex gap-2 md:gap-5 justify-start items-center'>
         <img src={onlineImg} className='w-[12%]' /> 
         <p className='text-[12px] sm:text-sm md:text-2xl font-normal text-[#393939]'>Virtual Labs </p>
         </div>
-        <p className='px-2 md:px-10 sm:mt-4 md:mt-6 text-[10px] sm:text-xs lg:text-sm text-[#393939]'> We provide our students with the convenience of accessing
+        <p className='px-2 md:px-10 mt-4 md:mt-6 text-[10px] sm:text-xs lg:text-sm text-[#393939]'> We provide our students with the convenience of accessing
             a fully equipped lab from anywhere just with an internet connection.
         </p>
      </div>

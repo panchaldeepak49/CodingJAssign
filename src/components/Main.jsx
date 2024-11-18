@@ -39,7 +39,7 @@ const Main = () => {
                         <p className='mt-1 text-[6px] sm:text-[8px] md:text-[8px] lg:text-sm text-[#4C5856]'>Designed for college students with a</p>
                         <p className='text-[6px] sm:text-[8px] md:text-[8px] lg:text-sm text-[#4C5856] '>focus on xyz,xyz lorem ipsum dolor</p>
 
-                        <button className='mt-0 sm:mt-2 lg:mt-3 px-1 sm:px-2 md:px-4 lg:px-8 md:py-1 lg:py-2 text-[5px] sm:text-[8px] lg:text-base bg-[#2B95ED] text-white rounded-md flex md:gap-2 items-center'>Explore <IoIosArrowForward /> </button> 
+                        <button className='mt-1 sm:mt-2 lg:mt-3 px-1 sm:px-2 md:px-4 lg:px-8 md:py-1 lg:py-2 text-[5px] sm:text-[8px] lg:text-base bg-[#2B95ED] text-white rounded-md flex md:gap-2 items-center'>Explore <IoIosArrowForward /> </button> 
                 </div>
 
                 <div className='w-[45%] max-450:py-1 h-auto sm:h-32 md:h-36 lg:h-52 border-2 border-[#2B95ED] rounded-md flex flex-col justify-center items-center'> 
@@ -49,7 +49,7 @@ const Main = () => {
                         <p className='mt-1 text-[6px] sm:text-[8px] md:text-[8px] lg:text-sm text-[#4C5856]'>Designed for college students with a</p>
                         <p className='text-[6px] sm:text-[8px] md:text-[8px] lg:text-sm text-[#4C5856] '>focus on xyz,xyz lorem ipsum dolor</p>
 
-                        <button className='mt-0 sm:mt-2 lg:mt-3 px-1 sm:px-2 md:px-4 lg:px-8 md:py-1 lg:py-2 text-[5px] sm:text-[8px] lg:text-base bg-[#2B95ED] text-white rounded-md flex md:gap-2 items-center'>Explore <IoIosArrowForward /> </button> 
+                        <button className='mt-1 sm:mt-2 lg:mt-3 px-1 sm:px-2 md:px-4 lg:px-8 md:py-1 lg:py-2 text-[5px] sm:text-[8px] lg:text-base bg-[#2B95ED] text-white rounded-md flex md:gap-2 items-center'>Explore <IoIosArrowForward /> </button> 
                 </div>
 
 
@@ -101,15 +101,15 @@ const Main = () => {
          {/* Part-4 */}
        <div className='px-4 sm:px-14 py-5 grid grid-cols-3 bg-[#C5E5FF33]'>
         <div className='flex justify-center items-center'>
-       <img src={bharatImg}  className='w-[70%] sm:w-[60%] h-auto'/>
+       <img src={bharatImg}  className='w-[75%] sm:w-[60%] h-auto'/>
        </div>
 
        <div className='md:h-28 border-l-2 border-r-2  border-l-gray-500 border-r-gray-500 flex justify-center items-center '>
-       <img src={nsdcImg}  className='w-[70%] sm:w-[60%] h-auto'/>
+       <img src={nsdcImg}  className='w-[75%] sm:w-[60%] h-auto'/>
        </div>
 
        <div className='flex justify-center items-center'>
-       <img src={startUpImg}  className='w-[70%] sm:w-[60%] h-auto'/>
+       <img src={startUpImg}  className='w-[75%] sm:w-[60%] h-auto'/>
        </div>
        </div>
       
